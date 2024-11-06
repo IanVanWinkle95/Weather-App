@@ -1,7 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background: #5aa9e6;
-    margin: 20%;
+    margin: 10%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,13 +17,15 @@ body {
     font-size: 2rem;
     font-weight: bold;
     border: 2px solid #5aa9e6;
+    border-radius: 7px;
     margin: 15px;
-    width: 285px;
+    width: 280px;
 }
 
 
 button[type="submit"] {
     padding: 10px 20px;
+    color: rgba(0, 0, 0, 0.61);
     font-weight: bold;
     font-size: 2rem;
     background-color: #f9f9f9;
@@ -34,6 +36,17 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
     background-color: #ffe45e;
+}
+
+.card {
+    background: #ffe45e;
+    padding: 50px;
+    box-shadow: 2px 2px 5px black;
+    min-width: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h1 {
@@ -66,7 +79,12 @@ p {
 }
 
 .errorDisplay {
+    padding: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.644);
+    border-radius: 10px;
+    background-color: #ff5353;
+    box-shadow: 2px 2px 5px black;
     font-size: 2rem;
     font-weight: bold;
-    color: #F9F9F9;
+    color: black;
 }
